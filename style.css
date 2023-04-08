@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;;
+    padding: 0;
+}
+:root{
+    --main-bg-color: rgb(44, 42, 165);
+}
+header{
+    background:var(--main-bg-color);
+    font-family: 'Delicious Handrawn', cursive;
+}
+nav{
+    display: flex;
+    flex-direction:column ;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center
+    align-items: center;
+}
+.logo img{
+    width: 283px;
+    padding: 0px 6px;
+    
+}
+.slider{
+    width: 80vw;
+    margin:  12px auto;
+    overflow: hidden;
+}
+.card{
+    margin: auto;
+    width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.slider{
+    height: 25vh;
+}
+
+nav ul {
+    height:59px;
+    background:var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 34px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+   color: rgb(255, 0, 38);
+    font-size: bold;
+}
+.search{
+    display: flex;
+align-items: center;
+}
+.search button{
+    font-family: 'Delicious Handrawn', cursive;
+}
+.container{
+    min-height: calc(100vh - 59px - 12vh);
+}
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);;
+    color: white;
+    font-family: 'Delicious Handrawn', cursive;
+ }
